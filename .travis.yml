@@ -11,7 +11,7 @@ before_script:
   - cargo install-update -a
 
 script:
-  - mdbook build docs
+  - mdbook build
 
 deploy:
   provider: pages
@@ -22,4 +22,3 @@ deploy:
   verbose: true
   on:
     branch: master
-    rust: stable
