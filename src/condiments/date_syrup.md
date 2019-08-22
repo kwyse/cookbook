@@ -1,6 +1,6 @@
 # Date Syrup
 
-&#9202; 70 minutes | &#127855; 350 millilitres | &#129344; 3 weeks
+&#9202;70 minutes | &#127855;350 millilitres | &#127801;Refrigerator | &#129344;3 weeks
 
 ## Ingredients
 

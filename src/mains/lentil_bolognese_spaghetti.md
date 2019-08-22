@@ -13,7 +13,7 @@
 | Tomatoes (4, large) | Tomato pureé (50g) | Whole grain spaghetti (225g) |
 | Chesnut mushrooms (200g) | [Date syrup](../condiments/date_syrup.md) (&#189; tsp) | Yeast flakes (2 tbsp) |
 | | White miso paste (1 tbsp) | Garlic (3, cloves) |
-| | Nutty Parm (1 tsp) | Onion (1, medium)
+| | [Nutty Parm](../condiments/nutty_parm.md) (1 tsp) | Onion (1, medium)
 | | | Dried basil (1&#189; tsp)
 | | | Dried oregano (1 tsp)
 | | | Dried chilli flakes (&#189; tsp)
