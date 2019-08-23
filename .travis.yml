@@ -12,6 +12,7 @@ before_script:
 
 script:
   - mdbook build
+  - cp -r images book/images
 
 deploy:
   provider: pages
