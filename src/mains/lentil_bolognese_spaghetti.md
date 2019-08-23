@@ -6,7 +6,7 @@
 
 ## Ingredients
 
-*100g of cooked lentils is a prerequisite*
+*100g of cooked [lentils](../legumes/red_lentils.md) is a prerequisite*
 
 | Fresh | Condiments | Pantry |
 | --- | --- | --- |
@@ -28,7 +28,7 @@
 1. Cook for 5 minutes and stir occasionally
 1. Add mushrooms to large frying pan
 1. Cook for 2 minutes
-1. Add tomato pureé, miso, yeast flakes and date sugar
+1. Add tomato pureé, miso, yeast flakes and date syrup
 1. Add basil, oregano and chilli flakes
 1. Add 250 millilitres of cool water
 1. Add tomato pulps and lentils
