@@ -4,7 +4,7 @@
 
 &#129364;Legumes  &#127838;Whole grains  &#129382;Cruciferous vegetables<br />&#129365;Root vegetables  &#127807;Herbs & spices  &#129372;Nuts & seeds
 
-![Image](images/vegetable_unfried_quinoa.jpg)
+![Image](../images/vegetable_unfried_quinoa.jpg)
 
 ## Ingredients
 
