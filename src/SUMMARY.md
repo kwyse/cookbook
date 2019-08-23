@@ -1,6 +1,7 @@
 # Cookbook
 
 - [Introduction](introduction.md)
+- [General Advice](general_advice.md)
 - [Food Groups](food_groups.md)
 - [Mains](mains/README.md)
   - [Lentil Bolognese Spaghetti](mains/lentil_bolognese_spaghetti.md)
