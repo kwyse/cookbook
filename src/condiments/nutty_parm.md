@@ -6,7 +6,7 @@
 
 | Pantry |
 | --- |
-| Almongs (135g) |
+| Almonds (135g) |
 | Brazil nuts (135g) |
 | Yeast flakes (75g) |
 | Savoury Spice Blend (2 tsp) |
