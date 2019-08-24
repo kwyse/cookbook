@@ -10,7 +10,7 @@
 | --- |
 | Flour (250g) |
 | Celery seeds (2 tbsp)
-| Dried ranberries (80g) |
+| Dried cranberries (80g) |
 | Dried thyme (1 tsp) |
 | Coconut oil (4tsp) |
 
