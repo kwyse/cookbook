@@ -15,3 +15,4 @@
 - [Condiments](condiments/README.md)
   - [Date Syrup](condiments/date_syrup.md)
   - [Nutty Parm](condiments/nutty_parm.md)
+  - [Vegetable Broth](condiments/vegetable_broth.md)
