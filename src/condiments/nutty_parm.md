@@ -9,7 +9,7 @@
 | Almonds (135g) |
 | Brazil nuts (135g) |
 | Yeast flakes (75g) |
-| Savoury Spice Blend (2 tsp) |
+| [Savoury Spice Blend](../condiments/savoury_spice_blend.md) (2 tsp) |
 
 ## Steps
 

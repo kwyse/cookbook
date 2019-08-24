@@ -10,7 +10,7 @@
 | Mushrooms (2, medium) | Garlic (3, cloves) |
 | Parsley (10g) | Black pepper (&#189; tsp)
 | | White miso paste (2 tbsp) |
-| | Savoury Spice Blend (1 tsp) |
+| | [Savoury Spice Blend](../condiments/savoury_spice_blend.md) (1 tsp) |
 
 ## Steps
 
