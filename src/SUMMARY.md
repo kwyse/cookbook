@@ -8,6 +8,7 @@
 - [Mains](mains/README.md)
   - [Lentil Bolognese Spaghetti](mains/lentil_bolognese_spaghetti.md)
   - [Vegetable Unfried Quinoa](mains/vegetable_unfried_quinoa.md)
+  - [Yellow Rice with Beans & Broccoli](mains/yellow_rice_beans_broccoli.md)
 - [Sides](sides/README.md)
   - [Sweet & Savoury Flatbread](sides/sweet_savoury_flatbread.md)
 - [Legumes](legumes/README.md)
