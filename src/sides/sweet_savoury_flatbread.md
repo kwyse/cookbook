@@ -19,7 +19,7 @@
 1. To a mixing bowl, add flour and 50 millilitres of cold water
 1. Combine the flower with the water until all the water is soaked up
 1. Kneed the resultant dough for 5 minutes
-1. Shape the dough into a flattened ball, put it in a bowl, and refridgerate for 10 minutes
+1. Shape the dough into a flattened ball, put it in a bowl, and refrigerate for 10 minutes
 1. Chop cranberries into small pieces
 1. After dough has been cooled, separate it into two pieces
 1. Roll the first dough ball on a rolling board, flip it, fold it and repeat for 3 minutes
