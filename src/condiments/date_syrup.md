@@ -6,11 +6,11 @@
 
 | Condiments | Pantry |
 | --- | --- |
-| Lemon (&#188;, small) | Dates, pitted (175g) |
+| [Blended Peeled Lemon](../condiments/blended_peeled_lemon.md) (1 tsp) | Dates, pitted (175g) |
 
 ## Steps
 
 1. Soak dates in 250 millilitres of boiling water for 1 hour
-1. Peel the lemon and blend it in a high speed blender
-1. Once the dates are softened, transfer them and the water to the blender with the lemon juice
+1. Once the dates are softened, transfer them and the water to a high-speed blender
+1. Add the blended peeled lemon
 1. Blend until the mixture is smooth
