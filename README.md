@@ -1,7 +1,3 @@
 # Cookbook
 
-Some of my favourite recipes.
-
-## Sources
-
-- [The How Not to Die Cookbook](https://nutritionfacts.org/cookbook/)
+Some of my favourite recipes. [Read it here](https://www.kwyse.com/cookbook/).
