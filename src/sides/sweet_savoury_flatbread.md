@@ -8,7 +8,7 @@
 
 | Pantry |
 | --- |
-| Flour (250g) |
+| Wholemeal flour (250g) |
 | Celery seeds (2 tbsp)
 | Dried cranberries (80g) |
 | Dried thyme (1 tsp) |
