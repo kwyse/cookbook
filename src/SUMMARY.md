@@ -3,6 +3,8 @@
 - [Introduction](introduction.md)
 - [General Advice](general_advice.md)
 - [Food Groups](food_groups.md)
+- [Breakfasts](breakfasts/README.md)
+  - [Fruit Smoothie](breakfasts/fruit_smoothie.md)
 - [Mains](mains/README.md)
   - [Lentil Bolognese Spaghetti](mains/lentil_bolognese_spaghetti.md)
   - [Vegetable Unfried Quinoa](mains/vegetable_unfried_quinoa.md)
