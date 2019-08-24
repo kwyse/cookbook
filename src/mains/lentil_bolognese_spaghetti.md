@@ -2,7 +2,7 @@
 
 &#9202; 40 minutes | &#128100; 4 servings
 
-&#129364;Legumes  &#127838;Whole grains  &#129365;Root vegetables  &#127807;Herbs & spices  &#129372;Nuts & seeds
+&#129364;Legumes  &#127838;Whole grains  &#129365;Root vegetables  &#127812;Mushrooms  &#127807;Herbs & spices  &#129372;Nuts & seeds
 
 ## Ingredients
 
