@@ -9,10 +9,10 @@
 | Pantry |
 | --- |
 | Wholemeal flour (250g) |
-| Celery seeds (2 tbsp)
-| Dried cranberries (80g) |
-| Dried thyme (1 tsp) |
-| Coconut oil (4tsp) |
+| Celery seeds (4 tsp)
+| Dried cranberries (160g) |
+| Dried thyme (2 tsp) |
+| Coconut oil (8 tsp) |
 
 # Steps
 
@@ -23,11 +23,13 @@
 1. Chop cranberries into small pieces
 1. After dough has been cooled, separate it into two pieces
 1. Roll the first dough ball on a rolling board, flip it, fold it and repeat for 3 minutes
-1. Flatten dough and rub 1 tablespoon of the oil on one side
-1. Add &#189; tablespoon celery seeds to the oiled side
-1. Add 40 grams of cranberries and &#189; tablespoon of thyme to the oiled side
-1. Set a skillet on high heat and add 1 tablespoon of oil to it
+1. Flatten dough and rub 1 teaspoon of the oil on the middle of one side
+1. Add 1 teaspoon celery seeds to the oiled side
+1. Add 40 grams of cranberries and &#189; teaspoon of thyme to the oiled side
+1. Set a skillet on high heat
 1. Roll dough, flip it, fold it and repeat for 2 minutes
-1. Flatten though until it is thin and shape it as desired
-1. Put flattened dough on the skillet and cook it for 5 minutes, flipping it every 30 seconds
+1. Flatten dough until it is thin and shape it as desired
+1. Put flattened dough on the skillet and flip it after 30 seconds
+1. Add 1 teaspoon of oil to the top side
+1. Cook the flatbread for 3 minutes, flipping every 30 seconds
 1. Repeat the process with the second dough ball
