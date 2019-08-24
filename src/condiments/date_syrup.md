@@ -6,7 +6,7 @@
 
 | Condiments | Pantry |
 | --- | --- |
-| Lemon (small, &#188;) | Dates, pitted (175g) |
+| Lemon (&#188;, small) | Dates, pitted (175g) |
 
 ## Steps
 
