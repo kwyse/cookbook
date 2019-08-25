@@ -12,6 +12,6 @@ Servings per day should be considered a recommended _minimum_ provided that you 
 | &#127812;Mushrooms | 20g | &#127812; | Mushrooms |
 | &#127827;Berries | 60g | &#127827; | Blueberries<br />Strawberries<br />Blackberries<br />Raspberries<br />Cranberries<br />Goji berries |
 | &#127818;Fruit | 1 medium fruit<br />40g dried | &#127818;&#127818;&#127818; | Dates<br />Figs<br />Apricots<br />Apples<br />Oranges<br />Pomergranates<br />Bananas |
-| &#127807;Herbs & spices | &#189; tsp powdered<br />1 tsp fresh | &#127807; | Turmeric<br />Garlic<br />Ginger<br />Corriander<br />Cumin<br />Coriander |
+| &#127807;Herbs & spices | &#189; tsp powdered<br />1 tsp fresh | &#127807; | Turmeric<br />Garlic<br />Ginger<br />Corriander<br />Cumin |
 | &#129372;Nuts & seeds | 30g | &#129372; | Walnuts<br />Almonds<br />Chia seeds<br />Pumpkin seeds<br />Sesame seeds |
 | &#127810;Flaxseeds | 1 tbsp | &#127810; | Ground flaxseeds |

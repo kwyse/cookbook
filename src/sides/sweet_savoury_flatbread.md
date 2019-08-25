@@ -14,7 +14,7 @@
 | Dried thyme (2 tsp) |
 | Coconut oil (8 tsp) |
 
-# Steps
+## Steps
 
 1. To a mixing bowl, add flour and 50 millilitres of cold water
 1. Combine the flower with the water until all the water is soaked up

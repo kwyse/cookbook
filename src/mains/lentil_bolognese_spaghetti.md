@@ -6,12 +6,12 @@
 
 ## Ingredients
 
-*100g of cooked [lentils](../legumes/red_lentils.md) is a prerequisite*
+*100g of cooked [lentils](../legumes/red_lentils.md) is a prerequisite, or the lentils can be substituted for chickpeas*
 
 | Fresh | Condiments | Pantry |
 | --- | --- | --- |
 | Tomatoes (4, large) | Tomato pureé (50g) | Whole grain spaghetti (225g) |
-| Chesnut mushrooms (200g) | [Date syrup](../condiments/date_syrup.md) (&#189; tsp) | Yeast flakes (2 tbsp) |
+| Mushrooms (200g) | [Date Syrup](../condiments/date_syrup.md) (&#189; tsp) | Yeast flakes (2 tbsp) |
 | | White miso paste (1 tbsp) | Garlic (3, cloves) |
 | | [Nutty Parm](../condiments/nutty_parm.md) (1 tsp) | Onion (1, medium)
 | | | Dried basil (1&#189; tsp)
