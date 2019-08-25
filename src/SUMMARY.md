@@ -13,6 +13,8 @@
 - [Sides](sides/README.md)
   - [Cabbage Sauté](sides/cabbage_saute.md)
   - [Sweet & Savoury Flatbread](sides/sweet_savoury_flatbread.md)
+- [Deserts](deserts/README.md)
+  - [No-Bake Brownies](deserts/no_bake_brownies.md)
 - [Legumes](legumes/README.md)
   - [Red Lentils](legumes/red_lentils.md)
 - [Condiments](condiments/README.md)
