@@ -17,6 +17,8 @@
   - [No-Bake Brownies](deserts/no_bake_brownies.md)
 - [Legumes](legumes/README.md)
   - [Red Lentils](legumes/red_lentils.md)
+- [Grains](grains/README.md)
+  - [Bulgur Wheat](grains/bulgur_wheat.md)
 - [Condiments](condiments/README.md)
   - [Blended Peeled Lemon](condiments/blended_peeled_lemon.md)
   - [Date Syrup](condiments/date_syrup.md)
