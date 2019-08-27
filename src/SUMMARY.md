@@ -8,6 +8,7 @@
   - [Summertime Oatmeal](breakfasts/summertime_oatmeal.md)
 - [Mains](mains/README.md)
   - [Lentil Bolognese Spaghetti](mains/lentil_bolognese_spaghetti.md)
+  - [Sweet Potato Hash](mains/sweet_potato_hash.md)
   - [Vegetable Unfried Quinoa](mains/vegetable_unfried_quinoa.md)
   - [Yellow Rice with Beans & Broccoli](mains/yellow_rice_beans_broccoli.md)
 - [Sides](sides/README.md)
