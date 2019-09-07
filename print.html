@@ -1,0 +1,588 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Cookbook</title>
+        
+        <meta name="robots" content="noindex" />
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body class="light">
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            document.body.className = theme;
+            document.querySelector('html').className = theme + ' js';
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li><a href="introduction.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li><a href="general_advice.html"><strong aria-hidden="true">2.</strong> General Advice</a></li><li><a href="food_groups.html"><strong aria-hidden="true">3.</strong> Food Groups</a></li><li><a href="breakfasts/index.html"><strong aria-hidden="true">4.</strong> Breakfasts</a></li><li><ol class="section"><li><a href="breakfasts/fruit_smoothie.html"><strong aria-hidden="true">4.1.</strong> Fruit Smoothie</a></li><li><a href="breakfasts/summertime_oatmeal.html"><strong aria-hidden="true">4.2.</strong> Summertime Oatmeal</a></li></ol></li><li><a href="mains/index.html"><strong aria-hidden="true">5.</strong> Mains</a></li><li><ol class="section"><li><a href="mains/lentil_bolognese_spaghetti.html"><strong aria-hidden="true">5.1.</strong> Lentil Bolognese Spaghetti</a></li><li><a href="mains/sweet_potato_hash.html"><strong aria-hidden="true">5.2.</strong> Sweet Potato Hash</a></li><li><a href="mains/vegetable_unfried_quinoa.html"><strong aria-hidden="true">5.3.</strong> Vegetable Unfried Quinoa</a></li><li><a href="mains/yellow_rice_beans_broccoli.html"><strong aria-hidden="true">5.4.</strong> Yellow Rice with Beans &amp; Broccoli</a></li></ol></li><li><a href="sides/index.html"><strong aria-hidden="true">6.</strong> Sides</a></li><li><ol class="section"><li><a href="sides/cabbage_saute.html"><strong aria-hidden="true">6.1.</strong> Cabbage Sauté</a></li><li><a href="sides/sweet_savoury_flatbread.html"><strong aria-hidden="true">6.2.</strong> Sweet &amp; Savoury Flatbread</a></li></ol></li><li><a href="deserts/index.html"><strong aria-hidden="true">7.</strong> Deserts</a></li><li><ol class="section"><li><a href="deserts/no_bake_brownies.html"><strong aria-hidden="true">7.1.</strong> No-Bake Brownies</a></li></ol></li><li><a href="legumes/index.html"><strong aria-hidden="true">8.</strong> Legumes</a></li><li><ol class="section"><li><a href="legumes/red_lentils.html"><strong aria-hidden="true">8.1.</strong> Red Lentils</a></li></ol></li><li><a href="grains/index.html"><strong aria-hidden="true">9.</strong> Grains</a></li><li><ol class="section"><li><a href="grains/bulgur_wheat.html"><strong aria-hidden="true">9.1.</strong> Bulgur Wheat</a></li></ol></li><li><a href="condiments/index.html"><strong aria-hidden="true">10.</strong> Condiments</a></li><li><ol class="section"><li><a href="condiments/blended_peeled_lemon.html"><strong aria-hidden="true">10.1.</strong> Blended Peeled Lemon</a></li><li><a href="condiments/date_syrup.html"><strong aria-hidden="true">10.2.</strong> Date Syrup</a></li><li><a href="condiments/nutty_parm.html"><strong aria-hidden="true">10.3.</strong> Nutty Parm</a></li><li><a href="condiments/savoury_spice_blend.html"><strong aria-hidden="true">10.4.</strong> Savoury Spice Blend</a></li><li><a href="condiments/umami_sauce.html"><strong aria-hidden="true">10.5.</strong> Umami Sauce</a></li><li><a href="condiments/vegetable_broth.html"><strong aria-hidden="true">10.6.</strong> Vegetable Broth</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar" class="menu-bar">
+                    <div id="menu-bar-sticky-container">
+                        <div class="left-buttons">
+                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                                <i class="fa fa-paint-brush"></i>
+                            </button>
+                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                                <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            </ul>
+                            
+                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            
+                        </div>
+
+                        <h1 class="menu-title">Cookbook</h1>
+
+                        <div class="right-buttons">
+                            <a href="print.html" title="Print this book" aria-label="Print this book">
+                                <i id="print-button" class="fa fa-print"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1><a class="header" href="#cookbook" id="cookbook">Cookbook</a></h1>
+<p>This book comprises of cooking recipes. The recipes are vegan and follow a whole-food, plant-based diet. They are based, or otherwise inspired by, recipes from the following sources:</p>
+<ul>
+<li><a href="https://nutritionfacts.org/cookbook/">The How Not to Die Cookbook</a></li>
+<li><a href="https://thedoctorskitchen.com/my-book">The Doctor's Kitchen</a></li>
+</ul>
+<p>Additional nutritional information was retrieved from:</p>
+<ul>
+<li><a href="https://nutritionfacts.org/book/">How Not to Die</a></li>
+</ul>
+<p>Many recipes are simply my preferential alterations on recipes mentioned in these books. I can vouch for each recipe I've included, since I wanted to write them up in a more digestable form that I could continually refer back to. They're tasty, relatively easy to make, but most importantly they are <em>simple</em>.</p>
+<h1><a class="header" href="#general-advice" id="general-advice">General Advice</a></h1>
+<ul>
+<li>Try to eat legumes with every meal.</li>
+<li>When shopping for whole grains, try to minimise the ratio of carbohydrates to dietary fibre. The Five-to-One rule states that, per 100g, there should not be more than five times as many carbohydrates as there is fibre, though this is difficult to achieve in practice. Whole grains that achieve less than a ten-to-one ratio, whilst not as good, are still worth purchasing.</li>
+</ul>
+<h1><a class="header" href="#food-groups" id="food-groups">Food Groups</a></h1>
+<p>Servings per day should be considered a recommended <em>minimum</em> provided that you do not eat when you are not hungry. The one exception is <em>Herbs &amp; spices</em>, of which stronger spices can be harmful if consumed in excess. Always use sound judgement when deciding to eat more than a typical amount.</p>
+<table><thead><tr><th>Group</th><th>  Serving size  </th><th>  Servings per day  </th><th>Foods</th></tr></thead><tbody>
+<tr><td>🥔Legumes</td><td>130g cooked</td><td>🥔🥔🥔</td><td>Chick peas<br />Red lentils<br />Black beans<br />Kidney beans<br />Pinto beans</td></tr>
+<tr><td>🍞Whole grains</td><td>50g cold<br />100g cooked</td><td>🍞🍞🍞</td><td>Oats<br />Quinoa<br />Whole wheat pasta<br />Brown rice</td></tr>
+<tr><td>🥬Greens</td><td>60g raw<br />90g cooked</td><td>🥬🥬</td><td>Spinach<br />Kale</td></tr>
+<tr><td>🥦Cruciferous vegetables</td><td>80g</td><td>🥦</td><td>Broccoli<br />Cauliflower<br />Brussels sprouts<br />Cabbage<br />Pak choi</td></tr>
+<tr><td>🥕Root vegetables</td><td>60g</td><td>🥕🥕</td><td>Sweet potatoes<br />Tomatoes<br />Beetroot<br />Carrots<br />Onions<br />Peppers</td></tr>
+<tr><td>🍄Mushrooms</td><td>20g</td><td>🍄</td><td>Mushrooms</td></tr>
+<tr><td>🍓Berries</td><td>60g</td><td>🍓</td><td>Blueberries<br />Strawberries<br />Blackberries<br />Raspberries<br />Cranberries<br />Goji berries</td></tr>
+<tr><td>🍊Fruit</td><td>1 medium fruit<br />40g dried</td><td>🍊🍊🍊</td><td>Dates<br />Figs<br />Apricots<br />Apples<br />Oranges<br />Pomergranates<br />Bananas</td></tr>
+<tr><td>🌿Herbs &amp; spices</td><td>½ tsp powdered<br />1 tsp fresh</td><td>🌿</td><td>Turmeric<br />Garlic<br />Ginger<br />Corriander<br />Cumin</td></tr>
+<tr><td>🥜Nuts &amp; seeds</td><td>30g</td><td>🥜</td><td>Walnuts<br />Almonds<br />Chia seeds<br />Pumpkin seeds<br />Sesame seeds</td></tr>
+<tr><td>🍂Flaxseeds</td><td>1 tbsp</td><td>🍂</td><td>Ground flaxseeds</td></tr>
+</tbody></table>
+<h1><a class="header" href="#breakfasts" id="breakfasts">Breakfasts</a></h1>
+<h1><a class="header" href="#fruit-smoothie" id="fruit-smoothie">Fruit Smoothie</a></h1>
+<p>⏲ 10 minutes | 👤 1 serving</p>
+<p>🥬Greens  🍓Berries  🍊Fruit  🌿Herbs &amp; spices  🍂Flaxseeds</p>
+<h2><a class="header" href="#ingredients" id="ingredients">Ingredients</a></h2>
+<table><thead><tr><th>Fresh</th><th>Frozen</th><th>Pantry</th></tr></thead><tbody>
+<tr><td>Spinach (90g)</td><td>Berries (60g)</td><td>Ground flaxseeds (1 tbsp)</td></tr>
+<tr><td>Banana (1, medium)</td><td></td><td>Milk (60ml)</td></tr>
+<tr><td></td><td></td><td>Turmeric (¼ tsp)</td></tr>
+</tbody></table>
+<h2><a class="header" href="#steps" id="steps">Steps</a></h2>
+<ol>
+<li>Slice the banana and add it to a high-speed blender</li>
+<li>Add the berries, spinach, milk, flaxseeds and turmeric</li>
+<li>Blend until the smoothie is at the desired thickness</li>
+</ol>
+<h1><a class="header" href="#summertime-oatmeal" id="summertime-oatmeal">Summertime Oatmeal</a></h1>
+<p>⏲ 10 minutes prior day, 5 minutes just before eating | 👤 2 servings</p>
+<p>🍞Whole grains  🍓Berries  🍊Fruit  🌿Herbs &amp; spices  🥜Nuts &amp; seeds  🍂Flaxseeds</p>
+<h2><a class="header" href="#ingredients-1" id="ingredients-1">Ingredients</a></h2>
+<table><thead><tr><th>Fresh</th><th>Condiments</th><th>Pantry</th></tr></thead><tbody>
+<tr><td>Berries (120g)</td><td><a href="breakfasts/../condiments/date_syrup.html">Date Syrup</a> (2 tbsp)</td><td>Oats (100g)</td></tr>
+<tr><td></td><td></td><td>Chia seeds (2 tbsp)</td></tr>
+<tr><td></td><td></td><td>Ground flaxseeds (2 tbsp)</td></tr>
+<tr><td></td><td></td><td>Ground cinnamon (½ tsp)</td></tr>
+<tr><td></td><td></td><td>Milk (450ml)</td></tr>
+</tbody></table>
+<h2><a class="header" href="#steps-1" id="steps-1">Steps</a></h2>
+<ol>
+<li>To a mixing bowl, add all the ingredients except the berries and mix well</li>
+<li>Split the mixture evenly among two small bowls</li>
+<li>Refrigerate overnight</li>
+<li>Just before eating, add the berries</li>
+</ol>
+<h1><a class="header" href="#mains" id="mains">Mains</a></h1>
+<p>These are complete meals that one would typically eat for lunch or dinner. They are all comprised of at least one type of legume, whole grain, and vegetable.</p>
+<p>Feel free to substitute the fresh ingredients with whatever you may have, especially if they are part of the same <a href="mains/../food_groups.html">food group</a>. For example, in the <a href="mains/../mains/sweet_potato_hash.html">Sweet Potato Hash recipe</a>, you can substitute the one sweet potato for two or three carrots without any other changes to the recipe. Both are root vegetables and, whilst sweet potatoes are the healthier of the two, both have similar nutritional profiles.</p>
+<h1><a class="header" href="#lentil-bolognese-spaghetti" id="lentil-bolognese-spaghetti">Lentil Bolognese Spaghetti</a></h1>
+<p>⏲ 40 minutes | 👤 4 servings</p>
+<p>🥔Legumes  🍞Whole grains  🥕Root vegetables  🍄Mushrooms  🌿Herbs &amp; spices  🥜Nuts &amp; seeds</p>
+<h2><a class="header" href="#ingredients-2" id="ingredients-2">Ingredients</a></h2>
+<p><em>100g of cooked <a href="mains/../legumes/red_lentils.html">lentils</a> is a prerequisite, or the lentils can be substituted for chickpeas</em></p>
+<table><thead><tr><th>Fresh</th><th>Condiments</th><th>Pantry</th></tr></thead><tbody>
+<tr><td>Tomatoes (4, large)</td><td>Tomato pureé (50g)</td><td>Whole grain spaghetti (225g)</td></tr>
+<tr><td>Mushrooms (200g)</td><td><a href="mains/../condiments/date_syrup.html">Date Syrup</a> (½ tsp)</td><td>Yeast flakes (2 tbsp)</td></tr>
+<tr><td></td><td>White miso paste (1 tbsp)</td><td>Garlic (3, cloves)</td></tr>
+<tr><td></td><td><a href="mains/../condiments/nutty_parm.html">Nutty Parm</a> (1 tsp)</td><td>Onion (1, medium)</td></tr>
+<tr><td></td><td></td><td>Dried basil (1½ tsp)</td></tr>
+<tr><td></td><td></td><td>Dried oregano (1 tsp)</td></tr>
+<tr><td></td><td></td><td>Dried chilli flakes (½ tsp)</td></tr>
+</tbody></table>
+<h2><a class="header" href="#steps-2" id="steps-2">Steps</a></h2>
+<ol>
+<li>Pulverise tomatoes and separate juices and pulp</li>
+<li>Finely chop onion, garlic and mushrooms</li>
+<li>Boil 1½ litres of water</li>
+<li>Set a large frying pan over medium heat</li>
+<li>Add pulverised tomato juice, onion and garlic to large frying pan</li>
+<li>Cook for 5 minutes and stir occasionally</li>
+<li>Add mushrooms to large frying pan</li>
+<li>Cook for 2 minutes</li>
+<li>Add tomato pureé, miso, yeast flakes and date syrup</li>
+<li>Add basil, oregano and chilli flakes</li>
+<li>Add 250 millilitres of cool water</li>
+<li>Add tomato pulps and lentils</li>
+<li>Simmer for 15 minutes and stir frequently</li>
+<li>To a large saucepan, add boiled water and spaghetti and stir occasionally</li>
+<li>Keep frying pan warm over low heat if spaghetti is delayed</li>
+<li>Spoon spaghetti onto a plate and spoon the hot bolegnese on top</li>
+<li>Sprinkle with Nutty Parm</li>
+</ol>
+<h1><a class="header" href="#sweet-potato-hash" id="sweet-potato-hash">Sweet Potato Hash</a></h1>
+<p>⏲ 60 minutes | 👤 4 servings</p>
+<p>🥔Legumes  🍞Whole grains  🥦Cruciferous vegetables<br />🥕Root vegetables  🍄Mushrooms  🌿Herbs &amp; spices</p>
+<h2><a class="header" href="#ingredients-3" id="ingredients-3">Ingredients</a></h2>
+<p><em>400g of cooked <a href="mains/../grains/bulgur_wheat.html">bulgur wheat</a> and 400g of cooked beans are prerequisites</em></p>
+<table><thead><tr><th>Fresh</th><th>Condiments</th><th>Pantry</th></tr></thead><tbody>
+<tr><td>Sweet potato (1, medium)</td><td><a href="mains/../condiments/umami_sauce.html">Umami Sauce</a></td><td>Onion (1, small)</td></tr>
+<tr><td>Cauliflower (650g)</td><td></td><td><a href="mains/../condiments/savoury_spice_blend.html">Savoury Spice Blend</a></td></tr>
+<tr><td>Red Pepper (1, medium)</td><td></td><td>Dried chilli flakes (¼ tsp)</td></tr>
+<tr><td>Mushrooms (250g)</td><td></td><td></td></tr>
+</tbody></table>
+<h2><a class="header" href="#steps-3" id="steps-3">Steps</a></h2>
+<ol>
+<li>Preheat oven to 220° celcius</li>
+<li>Chop the sweet potato and place it on a baking sheet lined with baking parchment</li>
+<li>Once the oven is at 220°, place the baking sheet into the oven and cook for 10 minutes</li>
+<li>Whilst the sweet potato is cooking, chop the cauliflower</li>
+<li>After the sweet potato has cooked for 10 minutes, remove the baking sheet from the oven</li>
+<li>Place the cauliflower onto the baking sheet and put the baking sheet back into the oven</li>
+<li>Cook the baking sheet contents for 20 minutes</li>
+<li>Whilst the sweet potato and cauliflower are cooking, chop the onion</li>
+<li>After the sheet contents has cooked for 10 minutes, set a large frying pan over medium heat</li>
+<li>Add 2 tablespoons of water and the onion to the frying pan, cover, and cook for 5 minutes</li>
+<li>Chop the mushrooms and pepper</li>
+<li>After 5 minutes, add the mushrooms and pepper and cook, uncovered, for 5 more minutes</li>
+<li>Stir the pan contents regularly</li>
+<li>After 5 more minutes, add the beans, Savoury Spice Blend, cayenne pepper and bulgur wheat</li>
+<li>Remove the roasted vegetables from the oven and place them into the frying pan</li>
+<li>Cook for 5 more minutes</li>
+<li>Drizzle the pan contents with Umami Sauce</li>
+</ol>
+<h1><a class="header" href="#vegetable-unfried-quinoa" id="vegetable-unfried-quinoa">Vegetable Unfried Quinoa</a></h1>
+<p>⏲ 30 minutes | 👤 4 servings</p>
+<p>🥔Legumes  🍞Whole grains  🥦Cruciferous vegetables<br />🥕Root vegetables  🌿Herbs &amp; spices  🥜Nuts &amp; seeds</p>
+<p><img src="mains/../images/vegetable_unfried_quinoa.jpg" alt="Image" /></p>
+<h2><a class="header" href="#ingredients-4" id="ingredients-4">Ingredients</a></h2>
+<p><em>400g of cooked quinoa is a prerequisite</em></p>
+<table><thead><tr><th>Fresh</th><th>Condiments</th><th>Pantry</th></tr></thead><tbody>
+<tr><td>Carrot (1, large)</td><td>Tahini (1 tbsp)</td><td>Rice vinegar (1 tsp)</td></tr>
+<tr><td>Broccoli (half head)</td><td>White miso paste (1 tsp)</td><td>Dried chilli flakes (½ tsp)</td></tr>
+<tr><td>Spring onions (3)</td><td></td><td>Onion (1, medium)</td></tr>
+<tr><td>Peas (150g)</td><td></td><td>Garlic (3, cloves)</td></tr>
+<tr><td></td><td></td><td>Ginger (2cm)</td></tr>
+</tbody></table>
+<h2><a class="header" href="#steps-4" id="steps-4">Steps</a></h2>
+<h1><a class="header" href="#yellow-rice-with-beans--broccoli" id="yellow-rice-with-beans--broccoli">Yellow Rice with Beans &amp; Broccoli</a></h1>
+<p>⏲ 80 minutes | 👤 4 servings</p>
+<p>🥔Legumes  🍞Whole grains  🥦Cruciferous vegetables  🥕Root vegetables  🌿Herbs &amp; spices</p>
+<h2><a class="header" href="#ingredients-5" id="ingredients-5">Ingredients</a></h2>
+<p><em>100g of cooked beans is a prerequisite</em></p>
+<table><thead><tr><th>Fresh</th><th>Condiments</th><th>Pantry</th></tr></thead><tbody>
+<tr><td>Broccoli (400g)</td><td>White miso paste (2 tsp)</td><td>Onion (1, large)</td></tr>
+<tr><td></td><td><a href="mains/../condiments/vegetable_broth.html">Vegetable Broth</a> (600ml)</td><td>Ginger (2cm)</td></tr>
+<tr><td></td><td></td><td>Yeast flakes (2 tbsp)</td></tr>
+<tr><td></td><td></td><td>Ground turmeric (¼ tsp)</td></tr>
+<tr><td></td><td></td><td>Ground coriander (½ tsp)</td></tr>
+<tr><td></td><td></td><td>Ground cumin (¼ tsp)</td></tr>
+<tr><td></td><td></td><td>Cayenne pepper (¼ tsp)</td></tr>
+<tr><td></td><td></td><td>Brown rice (250g)</td></tr>
+</tbody></table>
+<h2><a class="header" href="#steps-5" id="steps-5">Steps</a></h2>
+<ol>
+<li>Finely chop the onion and ginger</li>
+<li>Set a large saucepan over medium-high heat</li>
+<li>Add 2 tablespoons of water</li>
+<li>Add the onion and ginger and cook for 1 minute</li>
+<li>Add the miso paste, yeast flakes, turmeric, coriander, cumin, cayenne pepper and rice</li>
+<li>Add the Vegetable Broth and bring to a boil</li>
+<li>Lower the heat, cover, and cook for 40 minutes, stiring occasionally</li>
+<li>Add the broccoli</li>
+<li>Add more broth if necessary</li>
+<li>Cook for 10 more minutes or until the liquid is absorbed</li>
+<li>Add the beans and cook for 3 more minutes</li>
+</ol>
+<h1><a class="header" href="#sides" id="sides">Sides</a></h1>
+<h1><a class="header" href="#cabbage-sauté" id="cabbage-sauté">Cabbage Sauté</a></h1>
+<p>⏲ 25 minutes | 👤 4 servings</p>
+<p>🥦Cruciferous vegetables  🥕Root vegetables  🍄Mushrooms  🌿Herbs &amp; spices</p>
+<h2><a class="header" href="#ingredients-6" id="ingredients-6">Ingredients</a></h2>
+<table><thead><tr><th>Fresh</th><th>Condiments</th><th>Pantry</th></tr></thead><tbody>
+<tr><td>Cabbage (600g)</td><td><a href="sides/../condiments/vegetable_broth.html">Vegetable Broth</a> (60ml)</td><td>Onion (1, medium)</td></tr>
+<tr><td>Mushrooms (200g)</td><td><a href="sides/../condiments/umami_sauce.html">Umami Sauce</a> (3 tbsp)</td><td>Dried thyme (1 tsp)</td></tr>
+<tr><td></td><td></td><td>Ground black pepper (¼ tsp)</td></tr>
+</tbody></table>
+<h2><a class="header" href="#steps-6" id="steps-6">Steps</a></h2>
+<ol>
+<li>Shred the cabbage</li>
+<li>Finely chop the onion</li>
+<li>Chop the mushrooms</li>
+<li>Set a frying over medium heat</li>
+<li>Add the broth</li>
+<li>Add the onion and cabbage and cook for 4 minutes, stiring frequently</li>
+<li>Add the mushrooms and the thyme and cook for 4 more minutes, stiring frequently</li>
+<li>Add the Umami Sauce on top to coat</li>
+<li>Remove from heat and add the black pepper</li>
+</ol>
+<h1><a class="header" href="#sweet--savoury-flatbread" id="sweet--savoury-flatbread">Sweet &amp; Savoury Flatbread</a></h1>
+<p>⏲ 60 minutes | 👤 2 servings</p>
+<p>🍞Whole grains  🍊Fruit  🌿Herbs &amp; spices  🥜Nuts &amp; seeds</p>
+<h2><a class="header" href="#ingredients-7" id="ingredients-7">Ingredients</a></h2>
+<table><thead><tr><th>Pantry</th></tr></thead><tbody>
+<tr><td>Wholemeal flour (150g)</td></tr>
+<tr><td>Celery seeds (4 tsp)</td></tr>
+<tr><td>Dried cranberries (160g)</td></tr>
+<tr><td>Dried thyme (2 tsp)</td></tr>
+<tr><td>Coconut oil (8 tsp)</td></tr>
+</tbody></table>
+<h2><a class="header" href="#steps-7" id="steps-7">Steps</a></h2>
+<ol>
+<li>To a mixing bowl, add flour and 50 millilitres of cold water</li>
+<li>Combine the flower with the water until all the water is soaked up</li>
+<li>Kneed the resultant dough for 5 minutes</li>
+<li>Shape the dough into a flattened ball, put it in a bowl, and refrigerate for 10 minutes</li>
+<li>Chop cranberries into small pieces</li>
+<li>After dough has been cooled, separate it into two pieces</li>
+<li>Roll the first dough ball on a rolling board, flip it, fold it and repeat for 3 minutes</li>
+<li>Flatten dough and rub 1 teaspoon of the oil on the middle of one side</li>
+<li>Add 1 teaspoon celery seeds to the oiled side</li>
+<li>Add 40 grams of cranberries and ½ teaspoon of thyme to the oiled side</li>
+<li>Set a skillet on high heat</li>
+<li>Roll dough, flip it, fold it and repeat for 2 minutes</li>
+<li>Flatten dough until it is thin and shape it as desired</li>
+<li>Put flattened dough on the skillet and flip it after 30 seconds</li>
+<li>Add 1 teaspoon of oil to the top side</li>
+<li>Cook the flatbread for 3 minutes, flipping every 30 seconds</li>
+<li>Repeat the process with the second dough ball</li>
+</ol>
+<h1><a class="header" href="#deserts" id="deserts">Deserts</a></h1>
+<h1><a class="header" href="#no-bake-brownies" id="no-bake-brownies">No-Bake Brownies</a></h1>
+<p>⏲ 90 minutes | 👤 16 servings</p>
+<p>🍊Fruit  🥜Nuts &amp; seeds</p>
+<h2><a class="header" href="#ingredients-8" id="ingredients-8">Ingredients</a></h2>
+<table><thead><tr><th>Pantry</th></tr></thead><tbody>
+<tr><td>Walnuts (100g)</td></tr>
+<tr><td>Pecans (33g)</td></tr>
+<tr><td>Dates, pitted (200g)</td></tr>
+<tr><td>Almond butter (100g)</td></tr>
+<tr><td>Cocoa powder (50g)</td></tr>
+</tbody></table>
+<h2><a class="header" href="#steps-8" id="steps-8">Steps</a></h2>
+<ol>
+<li>To a blender, add the walnuts and dates and grind until finely ground</li>
+<li>Add the almond butter and blend until well mixed</li>
+<li>Add the cocoa powder and blend until well mixed</li>
+<li>Line a small baking tin with baking parchment and press the mixture evenly into the tin</li>
+<li>Break the pecans, divide them evenly on top of the mixture and gently press them in</li>
+<li>Refrigerate for 1 hour before cutting into squares</li>
+</ol>
+<h1><a class="header" href="#legumes" id="legumes">Legumes</a></h1>
+<h1><a class="header" href="#red-lentils" id="red-lentils">Red Lentils</a></h1>
+<p>⏲50 minutes | 🍯200 grams | 🌹Refrigerator | 🥀5 days</p>
+<h2><a class="header" href="#steps-9" id="steps-9">Steps</a></h2>
+<p><em>Measurements are for 100g of dried lentils</em></p>
+<ol>
+<li>In a saucepan, soak lentils in cold water for 20 minutes</li>
+<li>Boil 200ml of water</li>
+<li>After soaking lentils, rinse them thoroughly under cold running water</li>
+<li>Add boiled water and lentils to saucepan and bring to a boil</li>
+<li>Reduce heat and simmer for 20 minutes</li>
+</ol>
+<h1><a class="header" href="#grains" id="grains">Grains</a></h1>
+<h1><a class="header" href="#bulgur-wheat" id="bulgur-wheat">Bulgur Wheat</a></h1>
+<p>⏲30 minutes | 🍯400 grams | 🌹Refrigerator | 🥀5 days</p>
+<p><img src="grains/../images/bulgur_wheat.jpg" alt="Image" /></p>
+<h2><a class="header" href="#steps-10" id="steps-10">Steps</a></h2>
+<p><em>Measurements are for 150g of dried wheat</em></p>
+<ol>
+<li>Boil 750 millilitres of water</li>
+<li>Rinse wheat thoroughly under cold running water</li>
+<li>To a saucepan, add the wheat and boiled water and bring to a boil</li>
+<li>Reduce the heat to low, cover, and simmer for 15 minutes</li>
+<li>Drain the excess water and allow the wheat to sit for 10 minutes</li>
+</ol>
+<h1><a class="header" href="#condiments" id="condiments">Condiments</a></h1>
+<h1><a class="header" href="#blended-peeled-lemon" id="blended-peeled-lemon">Blended Peeled Lemon</a></h1>
+<p>⏲10 minutes | 🍯50 grams | 🌹Refrigerator | 🥀8 weeks</p>
+<h2><a class="header" href="#ingredients-9" id="ingredients-9">Ingredients</a></h2>
+<table><thead><tr><th>Fresh</th></tr></thead><tbody>
+<tr><td>Lemon (1, medium)</td></tr>
+</tbody></table>
+<h2><a class="header" href="#steps-11" id="steps-11">Steps</a></h2>
+<ol>
+<li>Peel the lemon and remove the seeds</li>
+<li>Put the peeled lemon in a blender and blend until smooth</li>
+<li>Store in a container with a tight-fitting lid</li>
+</ol>
+<h1><a class="header" href="#date-syrup" id="date-syrup">Date Syrup</a></h1>
+<p>⏲70 minutes | 🍯350 millilitres | 🌹Refrigerator | 🥀3 weeks</p>
+<h2><a class="header" href="#ingredients-10" id="ingredients-10">Ingredients</a></h2>
+<table><thead><tr><th>Condiments</th><th>Pantry</th></tr></thead><tbody>
+<tr><td><a href="condiments/../condiments/blended_peeled_lemon.html">Blended Peeled Lemon</a> (1 tsp)</td><td>Dates, pitted (175g)</td></tr>
+</tbody></table>
+<h2><a class="header" href="#steps-12" id="steps-12">Steps</a></h2>
+<ol>
+<li>Soak dates in 250 millilitres of boiling water for 1 hour</li>
+<li>Once the dates are softened, transfer them and the water to a high-speed blender</li>
+<li>Add the blended peeled lemon</li>
+<li>Blend until the mixture is smooth</li>
+</ol>
+<h1><a class="header" href="#nutty-parm" id="nutty-parm">Nutty Parm</a></h1>
+<p>⏲10 minutes | 🍯150 grams | 🌹Refrigerator | 🥀2 months</p>
+<h2><a class="header" href="#ingredients-11" id="ingredients-11">Ingredients</a></h2>
+<table><thead><tr><th>Pantry</th></tr></thead><tbody>
+<tr><td>Almonds (135g)</td></tr>
+<tr><td>Brazil nuts (135g)</td></tr>
+<tr><td>Yeast flakes (75g)</td></tr>
+<tr><td><a href="condiments/../condiments/savoury_spice_blend.html">Savoury Spice Blend</a> (2 tsp)</td></tr>
+</tbody></table>
+<h2><a class="header" href="#steps-13" id="steps-13">Steps</a></h2>
+<ol>
+<li>Combine the nuts, yeast flakes and spice blend in a high-speed blender</li>
+<li>Blend until the nuts are finely ground</li>
+</ol>
+<h1><a class="header" href="#savoury-spice-blend" id="savoury-spice-blend">Savoury Spice Blend</a></h1>
+<p>⏲10 minutes | 🍯125 grams | 🌹Pantry | 🥀6 months</p>
+<h2><a class="header" href="#ingredients-12" id="ingredients-12">Ingredients</a></h2>
+<table><thead><tr><th>Pantry</th></tr></thead><tbody>
+<tr><td>Yeast flakes (2 tbsp)</td></tr>
+<tr><td>Onion powder (1 tbsp)</td></tr>
+<tr><td>Garlic power (2 tsp)</td></tr>
+<tr><td>Mustard powder (2 tsp)</td></tr>
+<tr><td>Dried thyme (2 tsp)</td></tr>
+<tr><td>Dried basil (1 tbsp)</td></tr>
+<tr><td>Dried parsley (1 tbsp)</td></tr>
+<tr><td>Paprika (2 tsp)</td></tr>
+<tr><td>Ground turmeric (½ tsp)</td></tr>
+<tr><td>Celery seeds (½ tsp)</td></tr>
+</tbody></table>
+<h2><a class="header" href="#steps-14" id="steps-14">Steps</a></h2>
+<ol>
+<li>Combine all ingredients in a spice blender and blend until completely ground</li>
+<li>Store in a container with a tight-fitting lid</li>
+</ol>
+<h1><a class="header" href="#umami-sauce" id="umami-sauce">Umami Sauce</a></h1>
+<p>⏲10 minutes | 🍯280 grams | 🌹Refrigerator | 🥀6 weeks</p>
+<h2><a class="header" href="#ingredients-13" id="ingredients-13">Ingredients</a></h2>
+<table><thead><tr><th>Condiments</th><th>Pantry</th></tr></thead><tbody>
+<tr><td><a href="condiments/../condiments/vegetable_broth.html">Vegetable Broth</a> (250ml)</td><td>Garlic (2, cloves)</td></tr>
+<tr><td>White miso paste (1½ tsp)</td><td>Ginger (2cm)</td></tr>
+<tr><td><a href="condiments/../condiments/date_syrup.html">Date Syrup</a> (1½ tsp)</td><td>Ground black pepper (½ tsp)</td></tr>
+<tr><td>Tomato pureé (½ tsp)</td><td>Rice vinegar (1 tbsp)</td></tr>
+<tr><td><a href="condiments/../condiments/blended_peeled_lemon.html">Blended Peeled Lemon</a> (2 tbsp)</td><td></td></tr>
+</tbody></table>
+<h2><a class="header" href="#steps-15" id="steps-15">Steps</a></h2>
+<ol>
+<li>Finely chop the garlic and ginger</li>
+<li>Set a saucepan over medium heat</li>
+<li>Add the broth</li>
+<li>Add the garlic and ginger and simmer for 3 minutes</li>
+<li>In a small bowl, mix the miso paste with 2 tablespoons of water</li>
+<li>After 3 minutes, add the Date Syrup, tomato pureé and black pepper to the saucepan</li>
+<li>Bring the saucepan contents to a boil</li>
+<li>Reduce the heat and simmer for 1 minute</li>
+<li>Remove the saucepan from the heat</li>
+<li>Add the miso paste mixture, the blended peeled lemon and the rice vinegar</li>
+<li>Allow the sauce to cool</li>
+<li>Store in a container with a tight-fitting lid</li>
+</ol>
+<h1><a class="header" href="#vegetable-broth" id="vegetable-broth">Vegetable Broth</a></h1>
+<p>⏲2¼ hours | 🍯1.4 litres | 🌹Refrigerator | 🥀5 days</p>
+<h2><a class="header" href="#ingredients-14" id="ingredients-14">Ingredients</a></h2>
+<table><thead><tr><th>Fresh</th><th>Pantry</th></tr></thead><tbody>
+<tr><td>Carrot (1, medium)</td><td>Onion (1, medium)</td></tr>
+<tr><td>Mushrooms (2, medium)</td><td>Garlic (3, cloves)</td></tr>
+<tr><td>Parsley (10g)</td><td>Black pepper (½ tsp)</td></tr>
+<tr><td></td><td>White miso paste (2 tbsp)</td></tr>
+<tr><td></td><td><a href="condiments/../condiments/savoury_spice_blend.html">Savoury Spice Blend</a> (1 tsp)</td></tr>
+</tbody></table>
+<h2><a class="header" href="#steps-16" id="steps-16">Steps</a></h2>
+<ol>
+<li>Roughly chop the carrot, onion and garlic</li>
+<li>Set a large saucepan over medium heat</li>
+<li>Add 250 millilitres of cold water</li>
+<li>Add the carrot, onion and garlic and cook for 5 minutes</li>
+<li>Roughly chop the parsley</li>
+<li>After 5 minutes, add the mushrooms, parsely and black pepper</li>
+<li>Add 1.6 litres of cold water and bring to a boil</li>
+<li>Reduce heat and simmer for 90 minutes</li>
+<li>After 90 minutes, let the mixture cool slightly, then blend the mixture in a high-speed blender</li>
+<li>Return the blended mixture to the pan</li>
+<li>Remove 80 millilitres of the mixture into a small bowl and mix well with the miso paste</li>
+<li>Add the miso paste mixture back into the pan and mix well</li>
+<li>Add the Savoury Spice Blend</li>
+</ol>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+        
+        <script type="text/javascript">
+        window.addEventListener('load', function() {
+            window.setTimeout(window.print, 100);
+        });
+        </script>
+        
+        
+
+    </body>
+</html>
